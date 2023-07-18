@@ -1,0 +1,183 @@
+/* body{
+  width: 100vh;
+  height: 100vh;
+} */
+.container img{
+    width:100% ;
+    /* height: 800px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center ; */
+    opacity: 0;
+    
+}
+#gh{
+  width: 100%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 1200px;
+    height: 1200px;
+    background-repeat: no-repeat;
+  }
+
+.centered1 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5em;
+  }
+  .delhi {
+    top: 18%;
+    left:14%;
+    font-size:3.5rem;
+
+  }
+
+  .quote {
+    position: absolute;
+    top: 25%;
+    left: 10% ;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+  }
+
+  form{
+    position: absolute;
+    color: black;
+    background-color: aliceblue;
+    top: 30%;
+    left: 60%;
+    border-radius: 3%;
+    text-align: center;
+    height: 520px;
+    width: 400px;
+  }
+
+  form::placeholder{
+    text-align: center;
+  }
+
+  .colored-button{
+    background-color:palevioletred;
+    border-radius: 25px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    /* align-items: center; */
+    color: white;
+    font-weight: bold;
+  }
+
+  .form-input {
+    width: 300px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    border-radius: 5px;
+    border: solid 0.2px rgba(0, 0, 0, 0.378);
+  }
+
+  .whatsApp{
+    
+    position: absolute;
+    left: 45px;
+  }
+  
+
+  .text-brand-primary{
+    color: #eb595f;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+
+  .text{
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+   position: absolute;
+   left: 39.4px;
+
+  }
+
+  #web-lines{
+    text-align: center;
+  }
+
+  #web-lines p{
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+
+  #web-lines h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .colored{
+    background-color:palevioletred;
+    border-radius: 25px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    /* align-items: center; */
+    color: white;
+    font-weight: bold;
+    position:absolute;
+    left:570px;
+    
+    
+  }
+
+  
+  .image1-block{
+    display: block;
+
+  }
+
+/* services */
+
+  #services {
+    margin: 100px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid whitesmoke ;
+    padding: 34px;
+    margin: 0px 26px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+#services .box img {
+    height: 150px;
+    margin: 40px;
+    /*it will only work when display will be block*/
+    display: block;
+}
+
+#services .box p {
+    font-family: cursive;
+}
+#services-container{
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+
+.h-secondary {
+  font-family: cursive;
+  font-size: 2.3rem;
+  padding: 30px;
+
+}
+
+.center{
+  text-align: center;
+}
