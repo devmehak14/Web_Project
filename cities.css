@@ -1,0 +1,304 @@
+body{
+  overflow-x: hidden;
+  margin: 0px 0px;
+  
+}
+
+.con img{
+    width:100% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    
+}
+#line{
+  position: relative;
+  top: 7px;
+
+}
+#gh{
+  width: 100%;
+}
+.con {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 1200px;
+    height: 1200px;
+    background-repeat: no-repeat;
+  }
+
+.centered1 {
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5em;
+  }
+  .delhi {
+    top: 30%;
+    left:13.4%;
+    font-size:3.5rem;
+
+  }
+
+  .quote {
+    position: absolute;
+    top: 35%;
+    left: 9% ;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+  }
+
+  form{
+    position: absolute;
+    color: black;
+    background-color: aliceblue;
+    top: 22%;
+    left: 60%;
+    border-radius: 3%;
+    text-align: center;
+    height: 560px;
+    width: 400px;
+  }
+
+  form::placeholder{
+    text-align: center;
+  }
+
+  .colored-button{
+    background-color:#eb595f;
+    border-radius: 25px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    /* align-items: center; */
+    color: white;
+    font-weight: bold;
+  }
+
+  .form-input {
+    width: 300px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    border-radius: 5px;
+    border: solid 0.2px rgba(0, 0, 0, 0.378);
+  }
+
+  .whatsApp{
+    /* display: flex; */
+    align-items: left;
+    position: relative;
+    /* bottom: 10px; */
+    /* left: 100px; */
+    margin-right: 110px;
+    /* color: black; */
+  }
+  
+
+  .text-brand-primary{
+    color: #eb595f;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+
+  .text{
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+   position: absolute;
+   left: 40px;
+   bottom: 15px;
+
+  }
+
+  #web-lines{
+    text-align: center;
+  }
+
+  #web-lines p{
+    font-weight: light;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  #web-lines h1{
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .colored{
+    background-color :#eb595f;
+    border-radius: 25px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    /* align-items: center; */
+    color: white;
+    font-weight: bold;
+    position:absolute;
+    left:570px;
+    
+    
+  }
+
+  
+  .image1-block{
+    display: block;
+
+  }
+
+/* services */
+
+  #services {
+    margin: 100px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid whitesmoke ;
+    padding: 34px;
+    margin: 0px 26px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+#services .box img {
+    
+    height: 50%;
+    width: 123%;
+    /* margin: 0px 0px;*/
+    /* display: block;  */
+    position: relative;
+    right: 34px;
+    bottom: 34px;
+   
+  
+}
+
+
+#services-container{
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+
+.h-secondary {
+  /* font-family: cursive; */
+  font-size: 2.3rem;
+  padding: 30px;
+
+}
+
+.center{
+  text-align: center;
+}
+
+
+
+#address-loc h1{
+  position: relative;
+  top: 10px;
+  left: 150px;
+  font-size: 40px;
+}
+
+
+#address-loc p{
+  position: relative;
+  left: 150px;
+  top: 10px;
+  font-size: 20px;
+}
+
+.add{
+  float: right;
+}
+
+ #designer{
+  position: absolute;
+  left: 900px;
+  top :2280px;
+}
+
+#address-loc .head1{
+  position: absolute;
+  left: 900px;
+  top: 1970px;
+}
+#address-loc .head2{
+  position: absolute;
+  left: 900px;
+  top: 2140px;
+}
+
+#address-loc .sub1{
+  position: absolute;
+  left: 900px;
+  top: 2010px;
+}
+#address-loc .sub2{
+  position: absolute;
+  left: 900px;
+  top: 2180px;
+}
+/* .bg-color{
+  background-color: rgb(235, 233, 233);
+} */
+
+#footer{
+  position: absolute;
+  top: 2500px;
+  width: 100%;
+}
+
+#footer img{
+  width: 100%;
+  margin-top: 10px;
+}
+
+#footer h1{
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  color: white;
+  right: 100px;
+}
+
+#footer p{
+  font-size: 25px;
+  position: absolute;
+  top: 160px;
+  color: white;
+  right: 235px;
+}
+
+.card{
+  margin-left: 110px;
+}
+
+
+#carouselExampleControlsNoTouching{
+  width: 700px;
+  height: 1000px;
+  left: 70px;
+  margin-top: 30px;
+}
+
+
+.carousel-control-next-icon{
+  position: absolute;
+  top: 200px;
+}
+.carousel-control-prev-icon{
+  position: absolute;
+  top: 200px;
+
+}
+.carousel-item img{
+  border-radius: 8px;
+}
