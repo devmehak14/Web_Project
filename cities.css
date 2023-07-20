@@ -3,21 +3,26 @@ body{
   margin: 0px 0px;
   
 }
-html, body, header, nav, main {
+/* html, body, header, nav, main {
   margin: 0;
   padding: 0;
-}
-.container img{
+} */
+.con img{
     width:100% ;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0;
     
 }
+#line{
+  position: relative;
+  top: 7px;
+
+}
 #gh{
   width: 100%;
 }
-.container {
+.con {
     position: relative;
     text-align: center;
     color: white;
@@ -28,23 +33,23 @@ html, body, header, nav, main {
 
 .centered1 {
     position: absolute;
-    top: 10%;
+    top: 22%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 3.5em;
   }
   .delhi {
-    top: 18%;
-    left:14%;
+    top: 30%;
+    left:13.4%;
     font-size:3.5rem;
 
   }
 
   .quote {
     position: absolute;
-    top: 25%;
-    left: 10% ;
+    top: 35%;
+    left: 9% ;
     font-size: 1.5rem;
     font-weight: bolder;
     color: white;
@@ -54,11 +59,11 @@ html, body, header, nav, main {
     position: absolute;
     color: black;
     background-color: aliceblue;
-    top: 30%;
+    top: 22%;
     left: 60%;
     border-radius: 3%;
     text-align: center;
-    height: 520px;
+    height: 560px;
     width: 400px;
   }
 
@@ -85,9 +90,13 @@ html, body, header, nav, main {
   }
 
   .whatsApp{
-    
-    position: absolute;
-    left: 45px;
+    /* display: flex; */
+    align-items: left;
+    position: relative;
+    /* bottom: 10px; */
+    /* left: 100px; */
+    margin-right: 110px;
+    /* color: black; */
   }
   
 
@@ -102,7 +111,8 @@ html, body, header, nav, main {
     font-size: 15px;
     font-family: "Roboto",sans-serif;
    position: absolute;
-   left: 39.4px;
+   left: 40px;
+   bottom: 15px;
 
   }
 
@@ -111,11 +121,13 @@ html, body, header, nav, main {
   }
 
   #web-lines p{
-    font-weight: lighter;
+    font-weight: light;
     margin-top: 10px;
+    font-size: 20px;
   }
 
   #web-lines h1{
+    margin-top: 20px;
     font-size: 50px;
     margin-bottom: 10px;
   }
@@ -191,15 +203,6 @@ html, body, header, nav, main {
 
 
 
-#address-loc img{
-  
-  height: 500px;
-  width: 600px;
-  position: absolute;
-  left: 150px;
-  border-radius: 8px;
-}
-
 #address-loc h1{
   position: relative;
   top: 10px;
@@ -221,42 +224,44 @@ html, body, header, nav, main {
 
  #designer{
   position: absolute;
-  left: 1100px;
-  top : 2070px;
+  left: 900px;
+  top :2280px;
 }
 
 #address-loc .head1{
   position: absolute;
-  left: 800px;
-  top: 2150px;
+  left: 900px;
+  top: 1970px;
 }
 #address-loc .head2{
   position: absolute;
-  left: 800px;
-  top: 2300px;
+  left: 900px;
+  top: 2140px;
 }
 
 #address-loc .sub1{
   position: absolute;
-  left: 800px;
-  top: 2200px;
+  left: 900px;
+  top: 2010px;
 }
 #address-loc .sub2{
   position: absolute;
-  left: 800px;
-  top: 2350px;
+  left: 900px;
+  top: 2180px;
 }
 /* .bg-color{
   background-color: rgb(235, 233, 233);
 } */
 
 #footer{
-  position: relative;
-  top: 600px;
+  position: absolute;
+  top: 2500px;
+  width: 100%;
 }
 
 #footer img{
   width: 100%;
+  margin-top: 10px;
 }
 
 #footer h1{
@@ -264,7 +269,7 @@ html, body, header, nav, main {
   position: absolute;
   top: 10px;
   color: white;
-  right: 80px;
+  right: 100px;
 }
 
 #footer p{
@@ -275,4 +280,28 @@ html, body, header, nav, main {
   right: 235px;
 }
 
+.card{
+  margin-left: 110px;
+}
 
+
+#carouselExampleControlsNoTouching{
+  width: 700px;
+  height: 1000px;
+  left: 70px;
+  margin-top: 30px;
+}
+
+
+.carousel-control-next-icon{
+  position: absolute;
+  top: 200px;
+}
+.carousel-control-prev-icon{
+  position: absolute;
+  top: 200px;
+
+}
+.carousel-item img{
+  border-radius: 8px;
+}
