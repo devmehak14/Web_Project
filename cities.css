@@ -156,28 +156,6 @@ body{
     display: flex;
 }
 
-#services .box {
-    border: 2px solid whitesmoke ;
-    padding: 34px;
-    margin: 0px 26px;
-    border-radius: 2px;
-    margin-bottom: 20px;
-}
-
-#services .box img {
-    
-    height: 50%;
-    width: 123%;
-    /* margin: 0px 0px;*/
-    /* display: block;  */
-    position: relative;
-    right: 34px;
-    bottom: 34px;
-   
-  
-}
-
-
 #services-container{
     content: "";
     position: relative;

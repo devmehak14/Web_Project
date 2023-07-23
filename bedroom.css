@@ -1,15 +1,9 @@
-
 .nav-item{
-    margin-top: 35px;
+    margin-top: 25px;
     margin-bottom: 0px;
-    padding-bottom: 0%;
-    font-size:20px;
-    font-weight: bold;
-    /* padding-bottom: 4px; */
 }
 .horizontal{
-  margin-top: 1px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     
 }
 .text-body-emphasis{
@@ -26,7 +20,7 @@
 }
 
 .gradient-background {
-    /* background: linear-gradient(300deg,#f3f956 , #87b9fa,rgb(252, 85, 85)); */
+    background: linear-gradient(300deg,#FFECD2 , #FCB69F);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -94,60 +88,3 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
-
-form{
-  
-  color: white;
-  background-color: #6d5169;
-  position: absolute;
-  top: 2140px;
-  right: 86px;
-  border-radius: 1%;
-  text-align: center;
-  height: 800px;
-  width: 634px;
-  padding:50px;
-}
-
-form::placeholder{
-  text-align: center;
-}
-
-.form-input {
-  width: 300px; /* Set the desired width */
-  height: 50px; /* Set the desired height */
-  border-radius: 5px;
-  border: solid 0.2px rgba(0, 0, 0, 0.378);
-}
-
-.whatsApp{
-  /* display: flex; */
-  align-items: left;
-  position: relative;
-  /* bottom: 10px; */
-  /* left: 100px; */
-  margin-right: 110px;
-  /* color: black; */
-}
-.colored-button{
-    background-color:#eb595f;
-    border-radius: 25px;
-    border: none;
-    width: 300px;
-    height: 50px;
-    /* align-items: center; */
-    color: white;
-    font-weight: bold;
-    margin: 20px;
-  }
-
-  form h2{
-    padding: 10px;
-  }
-
-  form p{
-    padding-top: 0px;
-    padding-bottom: 15px;
-  }
-
