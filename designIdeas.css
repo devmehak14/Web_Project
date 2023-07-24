@@ -1,14 +1,69 @@
 
 .nav-item{
+    
+    margin-left: 18px;
     margin-top: 35px;
-    margin-bottom: 0px;
-    padding-bottom: 0%;
-    font-size:20px;
-    font-weight: bold;
-    /* padding-bottom: 4px; */
+
+    /* margin-bottom: 0px; */
+    /* padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%; */
+    font-size:18px;
+    font-weight: lighter;
+    /* font-weight: bold;   */
+    /* gap: 4px; */
+    background-color: #333;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    padding-bottom: 4px;
 }
+.main-content{
+  background-color: white;
+}
+
+.home-svg{
+  animation-name: rightMovement;
+  position: relative;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* left: 950px;
+  bottom: 300px; */
+}
+
+/* @keyframes rightMovement {
+  from{
+   left: 0px;
+  }
+
+  to{
+    right: 100px;
+  }
+} */
+
+.nav-item a{
+    flex: 1;
+    /* background-color: #777272; */
+    /* color:#ebdddd00;  */
+    color: white;
+    /* border:1px solid; */
+    padding:1.2rem;
+    text-align:center;
+    text-decoration:none;
+    transition:all 0.4s ease-out 0s;
+}
+
+a:hover,
+a:focus {
+  background-color: #fff;
+  color:black;
+}
+
 .horizontal{
-  margin-top: 1px;
+  margin-top: 20px;
     margin-bottom: 40px;
     
 }
@@ -20,15 +75,16 @@
 
 .lead{
     justify-content: left;
-    padding-bottom: 33px;
+    /* padding-bottom:300px; */
     font-weight: bolder;
 }
 .head{
     margin-left: 90px;
+    margin-top: 20px;
 }
 
 .gradient-background {
-    background: linear-gradient(300deg,#3E5151 , #DECBA4);
+    background: linear-gradient(300deg,#121b1b , #b59a65);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -114,7 +170,7 @@ form{
   background-color: #6d5169;
   position: absolute;
   /* top: px; */
-  top: 2173px;
+  top: 2182px;
   /* bottom: 49px; */
   /* left: 1px; */
   right: 86px;
@@ -158,6 +214,8 @@ form::placeholder{
     margin: 20px;
   }
 
+
+
   form h2{
     padding: 10px;
     /* padding-top: 50px; */
@@ -167,5 +225,19 @@ form::placeholder{
     padding-top: 0px;
     padding-bottom: 15px;
   }
-  
 
+  .col .card img:hover{
+    transform: scale(1.1);
+  }
+
+  .col .card img{
+    transition: all 0.3s linear 0s;
+  }
+
+  .card-img-top{
+    transition: all 0.4s linear 0s;
+  }
+  
+  .card-img-top:hover{
+    transform: scale(1.1);
+  }
