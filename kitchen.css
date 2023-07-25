@@ -30,9 +30,6 @@ margin-top: 1px;
   padding-bottom: 33px;
   font-weight: bolder;
 }
-.head{
-  margin-left: 90px;
-}
 
 .gradient-background {
   background: linear-gradient(300deg,#77a0a0 , #DECBA4,rgb(190, 135, 146));
@@ -110,7 +107,7 @@ color: white;
 background-color: #6d5169;
 position: absolute;
 /* top: px; */
-top: 2178px;
+top: 2208px;
 /* bottom: 49px; */
 /* left: 1px; */
 right: 86px;
